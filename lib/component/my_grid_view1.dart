@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class InfiniteGridView extends StatefulWidget {
-  String title;
+  final String title;
 
   InfiniteGridView({this.title});
 

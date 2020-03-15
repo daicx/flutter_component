@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class MyButtonView extends StatefulWidget {
-  String title;
+  final String title;
 
   MyButtonView({this.title});
 
