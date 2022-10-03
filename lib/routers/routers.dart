@@ -4,7 +4,7 @@ import 'package:fluttercomponent/routers/route_handler.dart';
 
 class Routes {
   // 路由管理
-  static Router router;
+  static FluroRouter router;
   static String root = "/";
   static String textView = "/text_view";
   static String gridView = "/grid_view";
@@ -29,7 +29,7 @@ class Routes {
   static String myScrollControl1 = "/scroll_control1";
   static String myImgView = "/img_view";
 
-  static void configureRoutes(Router router) {
+  static void configureRoutes(FluroRouter router) {
     // 未发现对应route
     router.notFoundHandler = Handler(
         handlerFunc: (BuildContext context, Map<String, dynamic> params) {

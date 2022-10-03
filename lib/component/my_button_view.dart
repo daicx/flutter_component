@@ -25,8 +25,8 @@ class _MyButtonView extends State<MyButtonView> {
             margin: EdgeInsets.all(3),
             width: MediaQuery.of(context).size.width,
             height: 50,
-            child: RaisedButton(
-              child: Text("RaisedButton"),
+            child: ElevatedButton(
+              child: Text("ElevatedButton"),
               onPressed: () {},
             ),
           ),
@@ -34,8 +34,8 @@ class _MyButtonView extends State<MyButtonView> {
             margin: EdgeInsets.all(3),
             width: MediaQuery.of(context).size.width,
             height: 50,
-            child: FlatButton(
-              child: Text("FlatButton"),
+            child: TextButton(
+              child: Text("TextButton"),
               onPressed: () {},
             ),
           ),
@@ -43,8 +43,8 @@ class _MyButtonView extends State<MyButtonView> {
             margin: EdgeInsets.all(3),
             width: MediaQuery.of(context).size.width,
             height: 50,
-            child: OutlineButton(
-              child: Text("FlatButton"),
+            child: OutlinedButton(
+              child: Text("OutlinedButton"),
               onPressed: () {},
             ),
           ),
@@ -61,24 +61,9 @@ class _MyButtonView extends State<MyButtonView> {
             margin: EdgeInsets.all(3),
             width: MediaQuery.of(context).size.width,
             height: 50,
-            child: RaisedButton.icon(
+            child: ElevatedButton.icon(
               icon: Icon(Icons.ac_unit),
               label: Text("带图标的按钮"),
-              onPressed: () {},
-            ),
-          ),
-          Container(
-            margin: EdgeInsets.all(3),
-            width: MediaQuery.of(context).size.width,
-            height: 50,
-            child: FlatButton(
-              color: Colors.blue,
-              highlightColor: Colors.blue[700],
-              colorBrightness: Brightness.dark,
-              splashColor: Colors.grey,
-              child: Text("自定义按钮"),
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(20.0)),
               onPressed: () {},
             ),
           ),

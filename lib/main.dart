@@ -9,7 +9,7 @@ import 'package:fluttercomponent/routers/routers.dart';
 import 'component/my_grid_view.dart';
 
 void main() {
-  final router = Router();
+  final router = FluroRouter();
   Routes.configureRoutes(router);
   runApp(MyApp());
 }

@@ -35,9 +35,9 @@ class _MyAppBar extends State<MyAppBar> {
       ),
       bottomNavigationBar: BottomNavigationBar( // 底部导航
         items: <BottomNavigationBarItem>[
-          BottomNavigationBarItem(icon: Icon(Icons.home), title: Text('首页')),
-          BottomNavigationBarItem(icon: Icon(Icons.business), title: Text('短视频')),
-          BottomNavigationBarItem(icon: Icon(Icons.school), title: Text('我的')),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: '首页'),
+          BottomNavigationBarItem(icon: Icon(Icons.business), label: '短视频'),
+          BottomNavigationBarItem(icon: Icon(Icons.school), label: '我的'),
         ],
         currentIndex: _selectedIndex,
         fixedColor: Colors.blue,
